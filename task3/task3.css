@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	padding:0;
+	background-color: #68cdd5;
+	height: 100%;
+	font-size: 62.5%;
+}
+
+.back{
+	padding: 5.5% 0 0 7.3%;
+	}
+
+.back img{
+	width: 9.1%;
+	height: 9.1%;
+}
+
+.logo{
+	margin-top: 12.5%;
+	margin-left: 34%;
+}
+
+.logo img{
+	width: 43%;
+}
+
+.wenzi{
+	margin-top: 13.75%;
+	margin-left: 14%;
+	margin-right: 14%;
+	margin-bottom: 37.8%;
+	font-family: "黑体";
+	font-size: 4vw;
+	color: #ffffff;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.left{
+	float: left;
+	width:50%;
+}
+
+
+.right{
+	float: right;
+	width:50%;
+}
+
+p{
+	font-family:"微软雅黑";
+	font-size:3vw;
+	color:#ffffff;
+}
+
+.picture img{
+	width:27.5%;
+} 
+
+.picture{
+	text-align:center;
+    margin-bottom: 27.8%;
+}
+
