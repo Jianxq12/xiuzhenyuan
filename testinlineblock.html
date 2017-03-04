@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	/*实现两个块元素更改为inline-block后平分并排*/
+	/*方法一：设置font-size为0*/
+	.space{
+		font-size: 0;
+		text-align: center;
+	}
+	.space1{
+		display: inline-block;
+		width: 50%;
+		background-color: red;
+		font-size: 12px;
+	}
+
+	.space2{
+		display: inline-block;
+		width: 50%;
+		background-color: green;
+		font-size: 12px;
+	/*方法二：去掉标签段之间的空格，
+	第一个div的闭合标签紧密连接第二个div的开始标签*/
+	}
+	</style>
+</head>
+<body>
+	<div class="space">
+	<div class="space1">第一个</div>
+	<div class="space2">第二个</div>
+	</div>
+</body>
+</html>
