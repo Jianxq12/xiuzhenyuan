@@ -1,0 +1,82 @@
+body{
+	font-size: 62.5%;
+	padding: 0;
+	margin: 0;
+	background-color: #eff0f4;
+	font-family: "黑体";
+}
+
+.header{
+	width: 100%;
+	height: 4.4em;
+	background-color: #5fc0cd;
+	text-align: center;
+	color: white;
+	line-height: 4.4em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.regist{
+	float: left;
+	margin-left: 1.4em;
+}
+
+.close{
+	float: right;
+	margin-right: 1.4em;
+}
+
+.name {
+	margin:5.2em 0 0.8em 0;
+	width: 100%;
+	height: 5em;
+	background-color: white;
+	line-height: 5em;
+
+}
+
+.pwd {
+ 	margin-bottom: 1.2em; 	
+ 	width: 100%;
+ 	height: 5em;
+ 	background-color: white;
+ 	line-height: 5em;
+ }
+
+input{
+	border: none;
+	outline: none;
+	width: auto;
+	height:3em;
+	vertical-align: middle;
+} 
+
+img{
+ 	padding:0 2em;
+ 	height: 2.1em;
+ 	border-right: 1px solid gray;
+	vertical-align: middle;
+ }
+
+button{
+  	width: 100%;
+  	height: 5em;
+  	background-color: #5fc0cd;
+  	color: white;
+  	text-align: center;
+  	border:none;
+  	margin-bottom: 0.8em;
+  }
+
+a{
+	float: right;
+	margin-right: 1.5em;
+}
+
+label{
+	font-size: 1.6em;
+	font-family: "黑体";
+}
